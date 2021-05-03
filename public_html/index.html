@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <link rel="stylesheet" href="w3.css">
+        <link rel=icon href=SuF.png sizes="any" type="image/svg+xml">
+        
+         <title>SUF</title>
+    </head>
+   
+
+
+<body style="background-color: #041414">
+
+    <header class="w3-container " style="background-color: " >
+        <div id="loginactioncontainer" class="w3-right w3-padding-16" style="margin-left:50px">
+        <div id="mypagediv" style="display: none;"></div>
+        <!-- <button id="w3loginbtn" style="border:none;display:none;cursor:pointer" class="login w3-right w3-hover-greener" onclick='w3_open_nav("login")'>LOG IN</button>-->
+        <a id="w3loginbtn" class="w3-bar-item w3-button w3-btn  w3-right" style="display: inline; width: 130px; background-color: #30ffff; color: #041414; border-radius: 25px;" href="länk till login" target="_self">Log in</a>
+      
+        <a class="w3-bar-item w3-button  w3-right w3-hide-small barex"  style="width:140px;hover:403ff;border-radius:25px;background-color: #30ffff;margin-right:15px" href="https://courses.w3schools.com/" target="_blank" id="cert_navbtn" onclick="ga('send', 'event', 'Courses' , 'Clicked on courses in Default top navigation');" title="Courses">Registrera dig</a>
+        </div>
+    
+    
+    
+        <a href="Home.html"> <img src="SuF.png" height="70"></a>
+    
+    </header>
+
+
+
+
+   <img src="Skolunform.gif" style="width:100%"  alt="Flowers in Chania">
+  
+ 
+ 
+</body>
+<footer class="w3-container " style="background-color: #041414">
+    
+        <div class="logo ">
+            <img  class="w3-left" src="SuF.png" alt="alt" height="138"/>
+            <p class="w3-right">&copy; 2021 skoluniform</p>
+            <div class="suf-language-picker">
+                <button class="suf-language-picker-button " ng-click="menuVisible =!menuVisible">
+                    <span class="suf-language-picker-button-content">
+                        <span class="flag suf-language-picker-flag_us_uk" ng-class="languages[getCurrentLanguage()].flag"></span>
+                        <span class="label" ng-bind="languages[getCurrentLanguage()].name">EN</span>
+                    </span>
+                </button>
+            </div>
+
+        </div>
+</footer>
+
+
+</html>
