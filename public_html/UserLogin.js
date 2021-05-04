@@ -7,19 +7,19 @@
 //Kommer befinna sig i en databas senare
 var objPeople=[
     {
-        username:"vigge",
+        email:"vigge@hotmail.com",
         password:"pilot"
     },
     {
-        username:"viktor",
+        email:"viktor@hotmail.com",
         password:"bean"
     },
     {
-        username:"preecha",
+        email:"preecha@hotmail.com",
         password:"ween"
     },
     {
-        username:"preecha",
+        email:"preecha@hotmail.com",
         password:"windfew"
     }
     
@@ -27,7 +27,7 @@ var objPeople=[
 
 function getInfo(){
     //hämtar värdet på inputen av användaren under login fältet
-    var username = document.getElementById("username").value;
+    var username = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     //info ifall elemnten hämtas eller inte, hittas i console
     console.log("if the test passed the user name is " + username + " and the password is " +password);
