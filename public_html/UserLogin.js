@@ -24,9 +24,22 @@ var objPeople=[
 ]
 
 function getInfo(){
+    //hämtar värdet på inputen av användaren under login fältet
     var username = document.getElementById("username").value
     var password = document.getElementById("password").value
+    //info ifall elemnten hämtas eller inte, hittas i console
     console.log("if the test passed the user name is " + username + " and the password is " +password)
+    
+    for(i = 0; i < objPeople.length; i++){
+        if(username == objPeople[i].username && password == objPeople[i].password)
+        {
+            console.log(username + "is logged in")
+        }
+        else{
+            console.log("username or password didn't match")
+        }
+        
+    }
 }
 
 
