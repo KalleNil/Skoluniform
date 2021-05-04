@@ -3,10 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+//array för att testa rätt/fel login input
 var objPeople=[
     {
         username:"vigge",
-        password:"Pilot"
+        password:"pilot"
     },
     {
         username:"viktor",
@@ -34,12 +35,11 @@ function getInfo(){
         if(username == objPeople[i].username && password == objPeople[i].password)
         {
             console.log(username + "is logged in")
-        }
-        else{
-            console.log("username or password didn't match")
+            return
         }
         
     }
+    console.log("username or password didn't match")
 }
 
 
