@@ -25,6 +25,8 @@ var objPeople=[
     
 ];
 
+var ifLoginSucceed = false;
+
 function getInfo(){
     //hämtar värdet på inputen av användaren under login fältet
     var username = document.getElementById("email").value;
@@ -36,8 +38,9 @@ function getInfo(){
         if(username == objPeople[i].username && password == objPeople[i].password)
         {
             console.log(username + "is logged in");
+            ifLoginSucceed = true;
             return;
-            // `?` antar att vi här får bygga upp en sida utifrån varje användare som victor nämnde
+            
         }
         
     }
