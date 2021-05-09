@@ -11,7 +11,7 @@ var objPeople=[
         password:"pilot"
     },
     {
-        email:"viktor@hotmail.com",
+        email:"victor@hotmail.com",
         password:"bean"
     },
     {
@@ -25,7 +25,7 @@ var objPeople=[
     
 ];
 
-var ifLoginSucceed = false;
+
 
 function getInfo(){
     //hämtar värdet på inputen av användaren under login fältet
@@ -38,7 +38,6 @@ function getInfo(){
         if(username == objPeople[i].username && password == objPeople[i].password)
         {
             console.log(username + "is logged in");
-            ifLoginSucceed = true;
             return;
             
         }
