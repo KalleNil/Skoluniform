@@ -23,12 +23,10 @@ else{
     teacherapp1.seen = false;
 }
 
-var app = new Vue({
-    el: '#header-color',
-    data:{
-        color: "#141414"
-    }
-})
+new Vue({
+    el: 'headerColor',
+    data: {color: '#30ffff'}
+  })
 
 
 
