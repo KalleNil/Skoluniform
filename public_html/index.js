@@ -24,8 +24,14 @@ else{
 }
 
 new Vue({
-    el: 'headerColor',
-    data: {color: '#30ffff'}
+    el: '#headerColor',
+    data: {
+        description: "här ska bgc beroende på användarens roll läggas till",
+        color:{
+            backgroundColor: "#30ffff"
+        }
+
+    }
   })
 
 
