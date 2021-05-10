@@ -34,13 +34,16 @@ new Vue({
     }
   })
 
-new Vue({
-    el: "#bodyMenuColor"
-    data:{
-        description: "Menu body color"
-        bodyColor: "#041414"
+  new Vue({
+    el: '#bodyMenuColor',
+    data: {
+        description: "bodyColor with user dependency",
+        color:{
+            backgroundColor: "#041414"
+        }
+
     }
-})
+  })
 
 
 
