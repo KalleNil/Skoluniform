@@ -26,13 +26,21 @@ else{
 new Vue({
     el: '#headerColor',
     data: {
-        description: "här ska bgc beroende på användarens roll läggas till",
+        description: "här ska background color implemteras beroende på användarens roll",
         color:{
             backgroundColor: "#30ffff"
         }
 
     }
   })
+
+new Vue({
+    el: "#bodyMenuColor"
+    data:{
+        description: "Menu body color"
+        bodyColor: "#041414"
+    }
+})
 
 
 
