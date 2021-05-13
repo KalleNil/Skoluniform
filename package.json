@@ -11,6 +11,7 @@
     "author": "Kalle",
     "contributors": [],
     "dependencies": {
+        "request": "^2.88.2",
         "vue": "^2.6.12"
     }
 }
