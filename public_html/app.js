@@ -1,4 +1,13 @@
-const userInfo = Vue.createApp({
-    template: '<h1>hello</h1>',
-})
-userInfo.mount('#userInfo')
+var userInfo = new Vue({ 
+        template: '<h1>hej {{firstName}} </h1>',
+        data(){
+            return{
+                firstName: "Olle",
+                lastName: "Bornebusch"
+                
+                
+            }
+        }
+
+});
+userInfo.$mount("#userInfo")
