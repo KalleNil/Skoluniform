@@ -28,7 +28,7 @@ new Vue({
     data: {
         description: "här ska background color implemteras beroende på användarens roll",
         color:{
-            backgroundColor: "#30ffff"
+            backgroundColor: "#174542"
         }
 
     }
@@ -38,7 +38,7 @@ new Vue({
     el: '#bodyMenuColor',
     data: {
         description: "bodyColor with user dependency",
-        color:{
+        colorbody:{
             backgroundColor: "#041414"
         }
 
