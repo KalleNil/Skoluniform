@@ -47,7 +47,16 @@
          function openLogin(){   
          card.style.transform = "rotateY(0deg)";
     }    
-    
+    if (valid<signup)
+    {
+    /*Giltig loggning*/
+    document.location = "afterlogin.html";
+    }
+    else
+    {
+    /*Inte Giltig loggning*/
+    window.location = "login.html"
+    }
     </script>
     
     
