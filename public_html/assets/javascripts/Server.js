@@ -7,7 +7,7 @@ const port = 8000;
 const requestListener = function (req, res) {
   switch (req.url) {
     case "/":
-      fs.readFile(__dirname + "/index.html")
+      fs.readFile(__dirname + "./index.html")
         .then(contents => {
           res.setHeader("Content-Type", "text/html");
           res.writeHead(200);
