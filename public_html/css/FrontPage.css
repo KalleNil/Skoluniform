@@ -58,9 +58,9 @@ nav img{
     
 }
 
-/*----------OM OSS----------*/
+/*----------OM Plattform----------*/
 
-.OMPLATTFORM{
+.Om-Plattform{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -87,7 +87,7 @@ p{
     height: 100%;
     margin-right: 1%;
     
-    
+      
 }
 .beskrivning{
     flex-basis: 30%;
@@ -107,3 +107,29 @@ h3{
 .beskrivning:hover{
     box-shadow: 0 0 20px 0px rgba(4,174,176)
 }
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+/*----------OM Oss----------*/
+.Om-Oss{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.om-beskrivning-item p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    
+}
+
+
+
+
